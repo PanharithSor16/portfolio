@@ -5,6 +5,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { ref, onMounted } from "vue";
 import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
+import Experience from "./components/Experience.vue";
 // Initialize AOS when the component is mounted
 onMounted(() => {
   AOS.init({
@@ -17,6 +19,8 @@ onMounted(() => {
   <div class=" bg-[#17202A]">
     <Hero />
     <About/>
+    <Skills/>
+    <Experience/>
     <Navbar />
    
   </div>

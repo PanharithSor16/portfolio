@@ -1,4 +1,5 @@
 <script setup>
+import { CoFlagKh } from "@kalimahapps/vue-icons";
 </script>
 <template>
   <section id="Hero">
@@ -11,10 +12,10 @@
             
 
           >
-            Hello, I'm <span class="text-red-300 text-3xl"  data-aos="fade-down"> Panharith</span> <br />
+            Hello, I'm <span class="text-red-300 text-3xl"  data-aos="fade-down"><CoFlagKh /> Panharith  </span> <br />
           </h1>
 
-          <h1
+          <h1 
             class="text-gray-300 font-normal text-3xl ml-10 mt-2"
             data-aos="fade-left"
           >
@@ -48,7 +49,7 @@
         </div>
       </div>
 
-      <div class=" mt-20 text-red-100 flex items-center place-content-around">
+      <div class=" mt-20 text-red-100 flex items-center place-content-around mr-2">
         <div class=""> 
           <div class=" w-44 mb-3" data-aos="fade-down">
             <img src="/src/assets/image1.png" alt="">

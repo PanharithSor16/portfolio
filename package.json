@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "@kalimahapps/vue-icons": "^1.4.0",
     "aos": "^2.3.4",
     "vue": "^3.4.21"
   },
