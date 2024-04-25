@@ -5,10 +5,10 @@
       <div
         class="text-red-200 mt-20 ml-10 md:ml-0 mr-3 w-[80%] md:w-[45%] flex"
       >
-        <div class="w-80" data-aos="zoom-in">
+        <div class="w-80 hidden sm:block" data-aos="zoom-in">
           <img src="/src/assets/image2.png" data-aos="zoom-in" alt="" />
         </div>
-        <div class="ml-8" data-aos="zoom-out">
+        <div class="sm:ml-8 " data-aos="zoom-out">
           <h1 class="text-2xl underline" data-aos="zoom-out">ABOUT ME</h1>
           <p class="mt-5 max-w-96" data-aos="zoom-out">
             HI agian , Welcome to My webpage I'm Sor Panharith <br />
