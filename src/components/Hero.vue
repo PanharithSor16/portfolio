@@ -4,13 +4,11 @@ import { CoFlagKh } from "@kalimahapps/vue-icons";
 <template>
   <section id="Hero">
     <div class=" items-center align-middle md:flex place-content-around">
-      <div class="mt-28 items-center ">
+      <div class="mt-0 items-center ">
         <div class="ml-10 md:ml-0 flex-row place-content-center items-center content-center " data-aos-duration="1200">
           <h1
             class="text-green-300 font-semibold text-2xl"
             data-aos="fade-down"
-            
-
           >
             Hello, I'm <span class="text-red-300 text-3xl"  data-aos="fade-down"><CoFlagKh /> Panharith  </span> <br />
           </h1>
@@ -51,26 +49,25 @@ import { CoFlagKh } from "@kalimahapps/vue-icons";
 
       <div class=" mt-20 text-red-100 flex items-center place-content-around mr-2">
         <div class=""> 
-          <div class=" w-44 mb-3" data-aos="fade-down">
+          <div class=" max-w-44 mb-3" data-aos="fade-down">
             <img src="/src/assets/image1.png" alt="">
         </div>
-        <div class=" w-44" data-aos="fade-up">
+        <div class=" max-w-44" data-aos="fade-up">
           <img src="/src/assets/image2.png"  data-aos="fade-up" alt="">
         </div>
       </div>
         <div class="ml-4">
-          <div class=" w-44" data-aos="flip-down">
+          <div class=" max-w-44" data-aos="flip-down">
             <img src="/src/assets/image3.png"  data-aos="flip-down" alt="">
           </div>
       
-            <div class=" w-60 mt-3" data-aos="zoom-in">
+            <div class=" max-w-60 mt-3" data-aos="zoom-in">
               <img src="/src/assets/image4.png" data-aos="zoom-in" alt="">
             </div>
            
-            <div class=" w-60 mt-3 pb-2" data-aos="fade-left">
+            <div class=" max-w-60 mt-3 pb-2" data-aos="fade-left">
               <img src="/src/assets/image5.png" data-aos="fade-left" alt="">
             </div>
-          
         </div>
       </div>
     </div>
