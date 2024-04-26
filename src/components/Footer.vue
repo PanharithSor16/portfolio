@@ -3,7 +3,7 @@ import { DeFacebookPlain, BsInstagram , AnOutlinedPhone, AnOutlinedLinkedin, AkG
 </script>
 <template>
   <section
-    class="rounded-md bg-slate-800  flex  md:flex-row gap-4 text-white place-content-around"
+    class=" sticky rounded-md bg-slate-800  flex  md:flex-row gap-4 text-white place-content-around"  data-aos="fade-down"
   >
     <div class="flex flex-col place-content-around mt-12 md:m-20">
       <div class="flex items-center text-pink-100"><DeFacebookPlain class="mr-2"/> FaceBook </div>

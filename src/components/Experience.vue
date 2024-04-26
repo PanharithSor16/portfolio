@@ -36,7 +36,7 @@ const modules = [Navigation, Pagination, Mousewheel, Keyboard];
           <div class="mt-10">
             <div class="flex place-content-around">
               <img
-                class="object-scale-down bg-cover hover:object-scale-down h-full max-h-96 max-w-[30%] pb-5"
+                class=" object-fill bg-cover hover:object-scale-down h-full max-h-96 max-w-[30%] pb-5"
                 :src="slide.img"
                 alt="{{ slide.name }}"
               />
