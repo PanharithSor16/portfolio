@@ -16,7 +16,7 @@ const modules = [Navigation, Pagination, Mousewheel, Keyboard];
 <template>
   <section>
     <div class="flex flex-col items-center place-content-around mb-28">
-      <div class="text-pink-300 text-xl">Experience</div>
+      <div class="text-pink-300 font-medium text-2xl" data-aos="fade-down">Experience</div>
 
       <swiper
         :cssMode="true"
@@ -30,12 +30,13 @@ const modules = [Navigation, Pagination, Mousewheel, Keyboard];
         }"
         :modules="modules"
         class="mySwiper"
+        data-aos="fade-down"
       >
-        <swiper-slide v-for="(slide, index) in Slide" :key="index">
+        <swiper-slide v-for="(slide, index) in Slide" :key="index" >
           <div class="mt-10">
             <div class="flex place-content-around">
               <img
-                class="object-scale-down bg-cover hover:object-scale-down h-full max-h-96 max-w-[30%] pb-10"
+                class="object-scale-down bg-cover hover:object-scale-down h-full max-h-96 max-w-[30%] pb-5"
                 :src="slide.img"
                 alt="{{ slide.name }}"
               />

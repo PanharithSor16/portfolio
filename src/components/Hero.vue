@@ -62,11 +62,11 @@ import { CoFlagKh } from "@kalimahapps/vue-icons";
           </div>
       
             <div class=" max-w-60 mt-3" data-aos="zoom-in">
-              <img src="/src/assets/image4.png" data-aos="zoom-in" alt="">
+              <img src="/src/assets/image4.png" data-aos="zoom-in" data-aos-easing="ease-in" alt="">
             </div>
            
             <div class=" max-w-60 mt-3 pb-2" data-aos="fade-left">
-              <img src="/src/assets/image5.png" data-aos="fade-left" alt="">
+              <img src="/src/assets/image5.png" data-aos="fade-left" data-aos-once="false" alt="">
             </div>
         </div>
       </div>
