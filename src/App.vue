@@ -12,20 +12,25 @@ import Contact from "./components/Contact.vue";
 // Initialize AOS when the component is mounted
 onMounted(() => {
   AOS.init({
-    duration: 2400
+
+      // offset: 120, // offset (in px) from the original trigger point
+      delay: 20, // values from 0 to 3000, with step 50ms
+      duration: 1800, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      anchorPlacement: 'top-bottom', // def
     // Global settings if needed
   });
 });
 </script>
 <template>
-  <div class=" bg-[#17202A]">
+  <div class="bg-[#17202A]">
     <Hero />
-    <About/>
-    <Skills/>
-    <Experience/>
-    <Contact/>
+    <About />
+    <Skills />
+    <Experience />
+    <Contact />
     <Navbar />
-    <Footer/>
-   
+    <Footer />
   </div>
 </template>
