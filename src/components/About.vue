@@ -3,7 +3,7 @@
   <section id="About">
     <div class="items-center md:flex place-content-around pt-5 pb-8 sm:pb-44">
       <div
-        class="text-red-200 mt-20 ml-10 md:ml-0 mr-3 w-[80%] md:w-[45%] flex"
+        class="text-red-200 mt-20  md:ml-0 md:mr-3  md:w-[45%] flex text-center place-content-around "
       >
         <div class="w-80 hidden sm:block" data-aos="zoom-in">
           <img src="/src/assets/image2.png" data-aos="zoom-in" alt="" />
@@ -26,7 +26,7 @@
       <div
         class="text-red-200 flex place-content-between  ml-10 md:ml-0 mr-3 md:w-[45%]"
       >
-        <div class=" mt-32"  data-aos="fade-right">
+        <div class=" mt-32 text-center"  data-aos="fade-right">
           <div class="  xl:line-clamp-1" >2007 - 2013 <span class="md:ml-2 ">PrimarySchool</span></div>
           <div class="mt-16  xl:line-clamp-1">2013 - 2016 <span class="ml-2 ">SecondarySchool</span></div>
           <div class="mt-20  xl:line-clamp-1 ">2016 - 2019 <span class="ml-2 ">HighSchool</span></div>

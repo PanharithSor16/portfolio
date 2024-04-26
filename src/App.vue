@@ -7,6 +7,8 @@ import { ref, onMounted } from "vue";
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
 import Experience from "./components/Experience.vue";
+import Footer from "./components/Footer.vue";
+import Contact from "./components/Contact.vue";
 // Initialize AOS when the component is mounted
 onMounted(() => {
   AOS.init({
@@ -21,7 +23,9 @@ onMounted(() => {
     <About/>
     <Skills/>
     <Experience/>
+    <Contact/>
     <Navbar />
+    <Footer/>
    
   </div>
 </template>
