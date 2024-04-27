@@ -1,7 +1,6 @@
 <script setup>
 import {
-  CoMobile,
-  BxCodeAlt,
+  
   VsFileTypePythowo,
   DeVuejsOriginal,
   DeJavaOriginal,
@@ -9,95 +8,134 @@ import {
   DeAndroidOriginal,
   DeReactOriginal,
   DePostgresqlPlain,
-  DeHtml5Original,
-  DeCss3Plain,
+  DeNuxtjsOriginal,
+  VsFileTypeLightNext ,
   DeTailwindcssPlain,
   DeJavascriptOriginal,
 } from "@kalimahapps/vue-icons";
 </script>
 <template>
-  <section>
-    <div class="grid text-cyan-400 items-center pb-16">
+  <section class="flex place-content-around">
+    <div class="grid  items-center pb-16 md:w-[80%]">
       <div
         class="text-2xl justify-start ml-[5%] sm:ml-[10%]"
         data-aos="fade-right"
       >
         Skills
       </div>
-      <div
-        class="mt-8 grid grid-cols-3 md:grid-cols-4 place-content-around items-center ml-[10%] sm:ml-[20%]"
-      >
-        <div class="text-cyan-400 text-xl items-center" data-aos="fade-down">
-          <VsFileTypePythowo class="items-center size-10" />
-          <p>Python</p>
-        </div>
-        <div class="text-cyan-400 text-xl items-center" data-aos="fade-down">
-          <DeVuejsOriginal class="items-center size-10" />
-          <p>Vue</p>
-        </div>
-        <div class="text-cyan-400 text-xl items-center" data-aos="fade-down">
-          <DeJavaOriginal class="items-center size-10" />
-          <p>Java</p>
+      <div class=" grid md:flex place-content-around">
+        <div class=" mb-4">
+          <h2></h2>
+          <div class="max-w-72 rounded-md shadow-md">
+            <img class=" rounded-md drop-shadow-lg"
+              src="/src//assets/dev_img.jpg"
+              alt=""
+            />
+          </div>
         </div>
         <div
-          class="mt-5 text-cyan-400 text-xl items-center"
-          data-aos="fade-left"
+          class="grid grid-cols-2 md:grid-cols-3 place-content-around items-center font-semibold text-center"
         >
-          <DeReactOriginal class="items-center size-10" />
-          <p>React</p>
-        </div>
-        <div class="mt-5 text-cyan-400 text-xl items-center" data-aos="fade-in">
-          <DeHtml5Original class="items-center size-10" />
-          <p>HTML</p>
-        </div>
-        <div class="mt-5 text-cyan-400 text-xl items-center" data-aos="fade-in">
-          <DeTailwindcssPlain class="items-center size-10" />
-          <p>Tailwind</p>
-        </div>
-        <div
-          class="mt-5 text-cyan-400 text-xl items-center"
-          data-aos="fade-out"
-        >
-          <DeCss3Plain class="items-center size-10" />
-          <p>CSS</p>
-        </div>
-        <div
-          class="mt-5 text-cyan-400 text-xl items-center"
-          data-aos="fade-left"
-        >
-          <DeJavascriptOriginal class="items-center size-10" />
-          <p>JavaScript</p>
-        </div>
-        <div class="mt-5 text-cyan-400 text-xl items-center" data-aos="fade-up">
-          <DePostgresqlPlain class="items-center size-10" />
-          <p>SQL</p>
-        </div>
-        <div class="mt-5 text-cyan-400 text-xl items-center" data-aos="fade-up">
-          <DeFlutterOriginal class="items-center size-10" />
-          <p>Flutter</p>
-        </div>
+          <div
+            class="flex space-x-2  text-xl items-center"
+            data-aos="fade-down"
+          >
+            <VsFileTypePythowo class="items-center size-6" />
+            <p class="text-sm">Python</p>
+          </div>
+          <div
+            class="flex space-x-2  text-xl items-center"
+            data-aos="fade-down"
+          >
+            <DeVuejsOriginal class="items-center size-6" />
+            <p class="text-sm">Vue</p>
+          </div>
+          <div
+            class="flex space-x-2  text-xl items-center"
+            data-aos="fade-down"
+          >
+            <DeJavaOriginal class="items-center size-6" />
+            <p class="text-sm">Java</p>
+          </div>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-left"
+          >
+            <DeReactOriginal class="items-center size-6" />
+            <p class="text-sm">React</p>
+          </div>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-in"
+          >
+            <DeNuxtjsOriginal class="items-center size-6" />
+            <p class="text-sm">Nuxt js</p>
+          </div>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-in"
+          >
+            <DeTailwindcssPlain class="items-center size-6" />
+            <p class="text-sm">Tailwind</p>
+          </div>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-out"
+          >
+            <VsFileTypeLightNext  class="items-center size-6" />
+            <p class="text-sm">Next js</p>
+          </div>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-left"
+          >
+            <DeJavascriptOriginal class="items-center size-6" />
+            <p class="text-sm">JavaScript</p>
+          </div>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-up"
+          >
+            <DePostgresqlPlain class="items-center size-6" />
+            <p class="text-sm">SQL</p>
+          </div>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-up"
+          >
+            <DeFlutterOriginal class="items-center size-6" />
+            <p class="text-sm">Flutter</p>
+          </div>
 
-        <div class="mt-5 text-cyan-400 text-xl items-center" data-aos="fade-up">
-          <DeAndroidOriginal class="items-center size-10" />
-          <p>Android</p>
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-up"
+          >
+            <DeAndroidOriginal class="items-center size-6" />
+            <p class="text-sm">Android</p>
+          </div>
         </div>
       </div>
-      <div class="mt-6 text-2xl ml-[5%] sm:ml-[10%]" data-aos="fade-right">
+      <div class="mt-6 text-2xl " data-aos="fade-right">
         Technology
       </div>
-      <div class="flex place-content-around mt-5">
+      <div class="grid md:flex place-content-around mt-5 text-center">
         <div
-          class="mt-5 text-cyan-400 text-xl items-center place-content-center"
+          class="mt-5 text-xl items-center place-content-center"
           data-aos="fade-down"
         >
-          <CoMobile class="ml-10 justify-center items-center size-10 mb-2" />
+          <div class=" max-w-72">
+            <img class=" rounded-lg" src="/src/assets/mobi_img.jpg" alt="">
+          </div>
           <p>Mobile Developer</p>
         </div>
         <div
-          class="mt-5 text-cyan-400 text-xl items-center place-content-center"
+          class="mt-5  text-xl items-center place-content-center"
           data-aos="fade-up"
         >
-          <BxCodeAlt class="ml-10 justify-center items-center size-10 mb-2" />
+          <div class=" max-w-72">
+            <img class=" rounded-lg" src="/src/assets/web_img.jpg" alt="">
+          </div>
           <p>Web Developer</p>
         </div>
       </div>

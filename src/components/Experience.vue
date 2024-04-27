@@ -14,8 +14,8 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 const modules = [Navigation, Pagination, Mousewheel, Keyboard];
 </script>
 <template>
-  <section>
-    <div class="flex flex-col items-center place-content-around mb-28">
+  <sectionc class=" flex place-content-around">
+    <div class="flex flex-col items-center place-content-around mb-28 w-[80%]">
       <div class="text-pink-300 font-medium text-2xl" data-aos="fade-down">Experience</div>
 
       <swiper
@@ -49,5 +49,5 @@ const modules = [Navigation, Pagination, Mousewheel, Keyboard];
         </swiper-slide>
       </swiper>
     </div>
-  </section>
+  </sectionc>
 </template>

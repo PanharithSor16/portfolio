@@ -24,7 +24,8 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="bg-[#17202A]">
+  <!-- bg-[#17202A] -->
+  <div class=" bg-pink-100 text-red-950 flex-col place-content-around">
     <Hero />
     <About />
     <Skills />

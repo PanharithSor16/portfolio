@@ -1,36 +1,43 @@
 <script setup>
 import { CoFlagKh } from "@kalimahapps/vue-icons";
+import VueTypewriterEffect from "vue-typewriter-effect";
+
+
+
 </script>
 <template>
   <section id="Hero">
     <div class=" items-center align-middle md:flex place-content-around">
       <div class="mt-0 items-center ">
-        <div class="ml-10 md:ml-0 flex-row place-content-center items-center content-center " data-aos-duration="1200">
+        <div class="ml-10 md:ml-0 flex-row place-content-center items-center content-center" data-aos-duration="1200">
+
+
+          <vue-typer text='Hello World! I was registered globally!'> </vue-typer>
           <h1
-            class="text-green-300 font-semibold text-2xl"
+            class=" font-semibold text-2xl"
             data-aos="fade-down"
           >
-            Hello, I'm <span class="text-red-300 text-3xl"  data-aos="fade-down"><CoFlagKh /> Panharith  </span> <br />
+            Hello, I'm <span class=" text-3xl"  data-aos="fade-down"><CoFlagKh /><vue-typewriter-effect :strings="['Panharith Sor', 'Software Enginner']" /> </span> <br />
           </h1>
-
+<!-- 
           <h1 
-            class="text-gray-300 font-normal text-3xl ml-10 mt-2"
+            class=" font-normal text-3xl ml-10 mt-2"
             data-aos="fade-left"
           >
             FullStack
           </h1>
 
           <h1
-            class="text-red-100 font-normal text-3xl ml-20 mt-2"
+            class="font-normal text-3xl ml-20 mt-2"
             data-aos="fade-right"
           >
             Developer
-          </h1>
-          <p class="mt-5 text-green-100" data-aos="fade-up">
+          </h1> -->
+          <p class="mt-5" data-aos="fade-up">
             I'm Software Engineering, I'm working at Marunix Cambodia in Phnom
             Penh
           </p>
-          <p class="text-green-100" data-aos="fade-up">
+          <p class="" data-aos="fade-up">
             I'm From Kirirom Institute of Technology
           </p>
         </div>
@@ -38,8 +45,8 @@ import { CoFlagKh } from "@kalimahapps/vue-icons";
           GET CV
         </button>
         <div class="ml-10 md:ml-0 ">
-          <h1 class=" text-emerald-200 text-xl mt-6 " data-aos="zoom-out">My Hobby</h1>
-          <p class=" text-red-200" data-aos="zoom-in"> About Me: <span class=" text-red-100">I'm a person that like travel, Sport especially Football
+          <h1 class="  text-xl mt-6 " data-aos="zoom-out">My Hobby</h1>
+          <p class=" " data-aos="zoom-in"> About Me: <span class="">I'm a person that like travel, Sport especially Football
             <br>and also like to find something new for my self
           </span> <br>
           <span class="mt-3">At the free Time I like read NOVEL and Anime</span>
@@ -60,7 +67,6 @@ import { CoFlagKh } from "@kalimahapps/vue-icons";
           <div class=" max-w-44" data-aos="flip-down">
             <img src="/src/assets/image3.png"  data-aos="flip-down" alt="">
           </div>
-      
             <div class=" max-w-60 mt-3" data-aos="zoom-in">
               <img src="/src/assets/image4.png" data-aos="zoom-in" data-aos-easing="ease-in" alt="">
             </div>
