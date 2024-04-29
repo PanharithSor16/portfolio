@@ -7,7 +7,7 @@ const message = ref('')
 </script>
 <template>
   <section>
-    <div class="text-red-200 text-center text-2xl">Contact</div>
+    <div class=" text-center text-2xl">Contact</div>
     <div class="block md:flex mt-5 place-content-around items-center justify-center  mb-5">
       <div class=" mt-5 bg-gray-200 rounded-lg p-4 m-2 md:w-2/4 pb-3"   data-aos="fade-up">
         <form class="text-start">
@@ -38,10 +38,10 @@ const message = ref('')
           >
           </textarea>
 
-          <input type="submit" value="Send" class="bg-green-500 text-white px-4 py-2 rounded-lg mt-4 cursor-pointer hover:bg-green-600" />
+          <input type="submit" value="Send" class="bg-green-500  px-4 py-2 rounded-lg mt-4 cursor-pointer hover:bg-green-600" />
         </form>
       </div>
-      <div class="text-cyan-200 sm:ml-5 block justify-center text-center items-center"   data-aos="fade-right">
+      <div class=" sm:ml-5 block justify-center text-center items-center"   data-aos="fade-right">
         <div class="w-full items-center">
           <div>Helo I'm Panharith
 

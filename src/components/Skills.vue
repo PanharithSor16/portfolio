@@ -1,6 +1,6 @@
 <script setup>
 import {
-  
+  VsFileTypeNode ,
   VsFileTypePythowo,
   DeVuejsOriginal,
   DeJavaOriginal,
@@ -18,7 +18,7 @@ import {
   <section class="flex place-content-around">
     <div class="grid  items-center pb-16 md:w-[80%]">
       <div
-        class="text-2xl justify-start ml-[5%] sm:ml-[10%]"
+        class="text-2xl justify-start "
         data-aos="fade-right"
       >
         Skills
@@ -106,7 +106,14 @@ import {
             <DeFlutterOriginal class="items-center size-6" />
             <p class="text-sm">Flutter</p>
           </div>
-
+         
+          <div
+            class="mt-5 flex space-x-2  text-xl items-center"
+            data-aos="fade-up"
+          >
+            <VsFileTypeNode  class="items-center size-6" />
+            <p class="text-sm">Node js</p>
+          </div>
           <div
             class="mt-5 flex space-x-2  text-xl items-center"
             data-aos="fade-up"

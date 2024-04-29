@@ -1,18 +1,17 @@
 <script setup>
+import {ref} from 'vue'
 import { CoFlagKh } from "@kalimahapps/vue-icons";
 import VueTypewriterEffect from "vue-typewriter-effect";
-
-
-
+const Day = ref(false)
 </script>
 <template>
-  <section id="Hero">
-    <div class=" items-center align-middle md:flex place-content-around">
+  <section id="Hero" class="flex place-content-around">
+    <div class=" items-center align-middle md:flex place-content-around md:w-[80%]">
+      <div v-if="Day">he</div>
       <div class="mt-0 items-center ">
         <div class="ml-10 md:ml-0 flex-row place-content-center items-center content-center" data-aos-duration="1200">
 
-
-          <vue-typer text='Hello World! I was registered globally!'> </vue-typer>
+        
           <h1
             class=" font-semibold text-2xl"
             data-aos="fade-down"
