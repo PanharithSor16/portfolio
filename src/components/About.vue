@@ -28,25 +28,26 @@
       >
         <div
           class="h-10 rounded-sm border-2 flex md:place-content-between w-44 sm:auto"
+          data-aos="fade-right"
         >
           <div class="bg-cyan-300 w-8 mr-3 md:mr-0"></div>
           <h3 class="mr-0 sm:mr-12 self-center font-bold">Education</h3>
         </div>
-        <div class="text-start mt-5">
-          <h2 class="mt-5 font-medium">BACHLOR OF SOFTWARE ENGINEERING</h2>
-          <p class="mt-2">Kirirom Institute of Technology</p>
-          <h2 class="mt-4">DIPLOMA</h2>
-          <p class="mt-2">Prei Sandek High School</p>
+        <div class="text-start mt-5" data-aos="fade-left">
+          <h2 class="mt-5 font-medium" data-aos="fade-left">BACHLOR OF SOFTWARE ENGINEERING</h2>
+          <p class="mt-2" data-aos="fade-left">Kirirom Institute of Technology</p>
+          <h2 class="mt-4" data-aos="fade-left">DIPLOMA</h2>
+          <p class="mt-2" data-aos="fade-left">Prei Sandek High School</p>
         </div>
         <div
           class="mt-5 h-10 rounded-sm border-2 flex md:place-content-between w-44 sm:auto"
         >
           <div class="bg-cyan-300 w-8 mr-3 md:mr-0"></div>
-          <h3 class="mr-0 sm:mr-4 self-center font-bold">ACHIEVEMENT</h3>
+          <h3 class="mr-0 sm:mr-4 self-center font-bold" data-aos="fade-right">ACHIEVEMENT</h3>
         </div>
-        <div class="text-start">
+        <div class="text-start"  data-aos="fade-left">
           <h2 class="mt-5">Development Training</h2>
-          <p class="mt-2">
+          <p class="mt-2" data-aos="fade-left">
             During the Development Training, for phase 1 my team has got
             runner-up for building application. and for phase2 my team didn't
             pass the top 3 but I can learn a lot of this Training.
