@@ -8,8 +8,6 @@
           <h1
             class="text-green-300 font-semibold text-2xl"
             data-aos="fade-down"
-            
-
           >
             Hello, I'm <span class="text-red-300 text-3xl"  data-aos="fade-down"> Panharith</span> <br />
           </h1>
