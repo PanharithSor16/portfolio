@@ -1,43 +1,57 @@
 <script setup></script>
 <template>
-  <section id="About">
-    <div class="items-center md:flex place-content-around pt-5 pb-44">
-      <div
-        class="text-red-200 mt-20 ml-10 md:ml-0 mr-3 w-[80%] md:w-[45%] flex"
-      >
-        <div class="w-80" data-aos="zoom-in">
+  <section id="About" class="flex place-content-around">
+    <div
+      class="md:flex items-start place-content-around pt-5 pb-8 sm:pb-44 w-[80%]"
+    >
+      <div class="mt-20 md:ml-0 md:mr-3 flex text-center place-content-around">
+        <div class="w-80 hidden sm:block" data-aos="zoom-in">
           <img src="/src/assets/image2.png" data-aos="zoom-in" alt="" />
         </div>
-        <div class="ml-8" data-aos="zoom-out">
-          <h1 class="text-2xl underline" data-aos="zoom-out">ABOUT ME</h1>
+        <div class="sm:ml-8" data-aos="zoom-out">
+          <h1 class="text-2xl" data-aos="zoom-out">ABOUT ME</h1>
           <p class="mt-5 max-w-96" data-aos="zoom-out">
-            HI agian , Welcome to My webpage I'm Sor Panharith <br />
             <span class="mt-2"
-              >I'm Software Engineering Student Form KIT, KampongSpur Cambodia.
-              I'm person that postive and motivation to learn the something new
-              especially Coding, Sport and new thing that Can improve my life.
-              I'm a person that never give up to learn the something new, Cause
-              I think if I give up hard this time will be when I start it again
-              or new thing.<br />
+              >As a software developer with three years of experience, I thrive
+              on creating innovative and user-friendly products. I'm dedicated
+              to continuous learning and value collaboration, whether working
+              independently or as part of a team. Beyond coding, I enjoy
+              spending time with loved ones, traveling, and exploring new ideas.
+              Check out my portfolio for examples of my work, and let's connect
+              to explore potential collaborations..<br />
             </span>
           </p>
         </div>
       </div>
       <div
-        class="text-red-200 flex place-content-between ml-10 md:ml-0 mr-3 md:w-[45%]"
+        class="mt-10 sm:mt-16 ml-10 md:ml-0 sm:ml-8 text-center md:max-w-[40%]"
       >
-        <div class=" mt-36">
-          <div class="">2017 - 2019</div>
-          <div>2019-2023</div>
-          <div>c</div>
+        <div
+          class="h-10 rounded-sm border-2 flex md:place-content-between w-44 sm:auto"
+          data-aos="fade-right"
+        >
+          <div class="bg-cyan-300 w-8 mr-3 md:mr-0"></div>
+          <h3 class="mr-0 sm:mr-12 self-center font-bold">Education</h3>
         </div>
-        <div class="flex-col items-center place-content-around">
-          <div class="-ml-12 h-12 text-2xl">EDUCATION</div>
-          <div class="h-20 w-px border-l border-blue-400"></div>
-          <div class="w-2 h-2 bg-pink-500 rounded-full mt-1 -ml-1"></div>
+        <div class="text-start mt-5" data-aos="fade-left">
+          <h2 class="mt-5 font-medium" data-aos="fade-left">BACHLOR OF SOFTWARE ENGINEERING</h2>
+          <p class="mt-2" data-aos="fade-left">Kirirom Institute of Technology</p>
+          <h2 class="mt-4" data-aos="fade-left">DIPLOMA</h2>
+          <p class="mt-2" data-aos="fade-left">Prei Sandek High School</p>
         </div>
-        <div class="mt-36">
-          <div class="">HighSchool</div>
+        <div
+          class="mt-5 h-10 rounded-sm border-2 flex md:place-content-between w-44 sm:auto"
+        >
+          <div class="bg-cyan-300 w-8 mr-3 md:mr-0"></div>
+          <h3 class="mr-0 sm:mr-4 self-center font-bold" data-aos="fade-right">ACHIEVEMENT</h3>
+        </div>
+        <div class="text-start"  data-aos="fade-left">
+          <h2 class="mt-5">Development Training</h2>
+          <p class="mt-2" data-aos="fade-left">
+            During the Development Training, for phase 1 my team has got
+            runner-up for building application. and for phase2 my team didn't
+            pass the top 3 but I can learn a lot of this Training.
+          </p>
         </div>
       </div>
     </div>
