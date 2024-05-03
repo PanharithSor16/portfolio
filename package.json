@@ -14,6 +14,7 @@
     "aos": "^2.3.4",
     "swiper": "^11.1.1",
     "vue": "^3.4.25",
+    "vue-router": "^4.3.2",
     "vue-typed-js": "^0.1.2",
     "vue-typer": "^1.2.0",
     "vue-typewriter-effect": "^1.0.1"

@@ -15,7 +15,7 @@ import {
 } from "@kalimahapps/vue-icons";
 </script>
 <template>
-  <section class="flex place-content-around">
+  <section id="Skills" class="flex place-content-around">
     <div class="grid  items-center pb-16 md:w-[80%]">
       <div
         class="text-2xl justify-start "
@@ -124,7 +124,7 @@ import {
         </div>
       </div>
       <div class="mt-6 text-2xl " data-aos="fade-right">
-        Technology
+        Development
       </div>
       <div class="grid md:flex place-content-around mt-5 text-center">
         <div
