@@ -16,22 +16,9 @@ const Day = ref(false)
             class=" font-semibold text-2xl"
             data-aos="fade-down"
           >
-            Hello, I'm <span class=" text-3xl"  data-aos="fade-down"><CoFlagKh /><vue-typewriter-effect :strings="['Panharith Sor', 'Software Enginner']" /> </span> <br />
-          </h1>
-<!-- 
-          <h1 
-            class=" font-normal text-3xl ml-10 mt-2"
-            data-aos="fade-left"
-          >
-            FullStack
+            Hello, I'm <span class=" text-3xl"  data-aos="fade-down"><CoFlagKh /><vue-typewriter-effect :strings="['Panharith Sor', 'Software Engineer']" /> </span> <br />
           </h1>
 
-          <h1
-            class="font-normal text-3xl ml-20 mt-2"
-            data-aos="fade-right"
-          >
-            Developer
-          </h1> -->
           <p class="mt-5" data-aos="fade-up">
             I'm Software Engineering, I'm working at Marunix Cambodia in Phnom
             Penh

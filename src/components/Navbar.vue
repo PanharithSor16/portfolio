@@ -7,6 +7,7 @@
             <a class=" p-3 bg-red-50" href="About">About</a>
             <a class=" p-3 bg-yellow-50 " href="Skills">Skills</a>
             <a class=" p-3 bg-yellow-50 " href="experince">experince</a>
+            <router-link class=" p-3 bg-yellow-50 " > route</router-link>
         </li>
     </nav>
 </template>
