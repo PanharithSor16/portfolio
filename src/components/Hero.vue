@@ -16,22 +16,22 @@ const Day = ref(false)
             class=" font-semibold text-2xl"
             data-aos="fade-down"
           >
-            Hello, I'm <span class=" text-3xl"  data-aos="fade-down"><CoFlagKh /><vue-typewriter-effect :strings="['Panharith Sor', 'Software Engineer']" /> </span> <br />
+            Hello, I'm <span class=" text-3xl  hover:text-green-900 "  data-aos="fade-down"><CoFlagKh /><vue-typewriter-effect :strings="['Panharith Sor', 'Software Engineer']" /> </span> <br />
           </h1>
 
           <p class="mt-5" data-aos="fade-up">
             I'm Software Engineering, I'm working at Marunix Cambodia in Phnom
             Penh
           </p>
-          <p class="" data-aos="fade-up">
+          <p class=" hover:text-yellow-900" data-aos="fade-up">
             I'm From Kirirom Institute of Technology
           </p>
         </div>
-        <button class="bg-red-200 p-2 mt-6 font-semibold ml-10 md:ml-0 rounded-md" data-aos="fade-right">
+        <button class="bg-red-200 p-2 mt-6 font-semibold ml-10 md:ml-0 rounded-md hover:pl-2 hover:ml-2" data-aos="fade-right">
           GET CV
         </button>
         <div class="ml-10 md:ml-0 ">
-          <h1 class="  text-xl mt-6 " data-aos="zoom-out">My Hobby</h1>
+          <h1 class="  text-xl mt-6  hover:mb-1 " data-aos="zoom-out">My Hobby</h1>
           <p class=" " data-aos="zoom-in"> About Me: <span class="">I'm a person that like travel, Sport especially Football
             <br>and also like to find something new for my self
           </span> <br>
@@ -42,7 +42,7 @@ const Day = ref(false)
 
       <div class=" mt-20 text-red-100 flex items-center place-content-around mr-2">
         <div class=""> 
-          <div class=" max-w-44 mb-3" data-aos="fade-down">
+          <div class=" max-w-44 mb-3 shadow-sm" data-aos="fade-down">
             <img src="/src/assets/image1.png" alt="">
         </div>
         <div class=" max-w-44" data-aos="fade-up">

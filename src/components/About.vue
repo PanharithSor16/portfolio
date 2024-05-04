@@ -6,11 +6,11 @@
     >
       <div class="mt-20 md:ml-0 md:mr-3 flex text-center place-content-around">
         <div class="w-80 hidden sm:block" data-aos="zoom-in">
-          <img src="/src/assets/image2.png" data-aos="zoom-in" alt="" />
+          <img src="/src/assets/image2.png" alt="" />
         </div>
-        <div class="sm:ml-8" data-aos="zoom-out">
-          <h1 class="text-2xl" data-aos="zoom-out">ABOUT ME</h1>
-          <p class="mt-5 max-w-96" data-aos="zoom-out">
+        <div class="sm:ml-8" data-aos="fade-left">
+          <h1 class="text-2xl" data-aos="fade-left">ABOUT ME</h1>
+          <p class="mt-5 max-w-96" data-aos="fade-left">
             <span class="mt-2"
               >As a software developer with three years of experience, I thrive
               on creating innovative and user-friendly products. I'm dedicated
@@ -30,7 +30,7 @@
           class="h-10 rounded-sm border-2 flex md:place-content-between w-44 sm:auto"
           data-aos="fade-right"
         >
-          <div class="bg-cyan-300 w-8 mr-3 md:mr-0"></div>
+          <div class="bg-cyan-300 w-8 mr-3 md:mr-0"  data-aos="fade-right"></div>
           <h3 class="mr-0 sm:mr-12 self-center font-bold">Education</h3>
         </div>
         <div class="text-start mt-5" data-aos="fade-left">
@@ -43,7 +43,7 @@
           class="mt-5 h-10 rounded-sm border-2 flex md:place-content-between w-44 sm:auto"
         >
           <div class="bg-cyan-300 w-8 mr-3 md:mr-0"></div>
-          <h3 class="mr-0 sm:mr-4 self-center font-bold" data-aos="fade-right">ACHIEVEMENT</h3>
+          <h3 class="mr-0 sm:mr-4 self-center font-bold hover:font-normal   " data-aos="fade-right">ACHIEVEMENT</h3>
         </div>
         <div class="text-start"  data-aos="fade-left">
           <h2 class="mt-5">Development Training</h2>

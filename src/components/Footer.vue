@@ -12,7 +12,7 @@ import {
     class="sticky rounded-md bg-slate-800 flex md:flex-row gap-4 text-white place-content-around"
     data-aos="fade-down"
   >
-    <div class="flex flex-col place-content-around mt-12 md:m-20">
+    <!-- <div class="flex flex-col place-content-around mt-12 md:m-20">
       <div class="flex items-center text-pink-100">
         <DeFacebookPlain class="mr-2" /> FaceBook
       </div>
@@ -28,15 +28,15 @@ import {
       <div class="flex items-center text-pink-100">
         <AkGithubOutlineFill class="mr-2" />GitHub
       </div>
-    </div>
-    <div class="mt-5">
+    </div> -->
+    <div class="flex flex-col place-content-around mt-0 md:m-20">
       <div>Project</div>
     </div>
     <div class="mt-5">
       <div>About</div>
     </div>
-    <div class="mt-5">
-      <div>Contact</div>
+    <div class="mt-5 flex flex-col place-content-around  md:m-20">
+      
       <div class="flex items-center text-pink-100">
         <DeFacebookPlain class="mr-2" /> FaceBook
       </div>

@@ -52,7 +52,7 @@ function closeDialog() {
             </h2>
             <div>
               <button
-                class="px-4 py-2 mt-4 bg-green-200 rounded-sm"
+                class="px-4 py-2 mt-4 bg-green-200 rounded-sm hover:bg-pink-200"
                 @click="openDialog(slide)"
               >
                 More Details
@@ -64,7 +64,7 @@ function closeDialog() {
       </swiper>
 
       <!-- Dialog component -->
-      <transition>
+      <transition name="slide-fade">
         <div v-if="dialogOpen" class="dialog -mt-[100%] sm:-mt-[46%] z-10 flex flex-col place-content-around h-96  w-[80%]">
           <div class="flex place-content-around">
             <h2>{{ selectedSlide.name }}</h2>
@@ -77,7 +77,7 @@ function closeDialog() {
         </div>
           <div class=" flex place-content-between">
             <div></div>
-            <button @click="closeDialog" class=" bg-red-300" >Close</button>
+            <button @click="closeDialog" class=" bg-red-200 hover:bg-green-200 p-2 rounded-sm" >Close</button>
           </div>
          
         </div>
@@ -86,13 +86,18 @@ function closeDialog() {
   </section>
 </template>
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
+.slide-fade-enter-active {
+  transition: all 0.4s ease-out;
 }
-.fade-enter,
-.fade-leave-to {
-  opacity: 0.5;
+
+.slide-fade-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
 }
 .dialog {
   background-color: white;
