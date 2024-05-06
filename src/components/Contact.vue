@@ -6,8 +6,8 @@ const email = ref('')
 const message = ref('')
 </script>
 <template>
-  <section>
-    <div class=" text-center text-2xl">Contact</div>
+  <section class="flex place-content-around"><div class="w-[80%]">
+    <div class=" text-center text-2xl ">Contact</div>
     <div class="block md:flex mt-5 place-content-around items-center justify-center  mb-5">
       <div class=" mt-5 bg-gray-200 rounded-lg p-4 m-2 md:w-2/4 pb-3"   data-aos="fade-up">
         <form class="text-start">
@@ -48,9 +48,8 @@ const message = ref('')
         </div>
            <div class="flex place-content-around"> <img class="w-72 mt-2 self-center " src="/src/assets/image1.png" alt=""></div>
         </div>
-        
       </div>
     </div>
-    
+  </div>
   </section>
 </template>

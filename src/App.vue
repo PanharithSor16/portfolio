@@ -10,6 +10,7 @@ import Experience from "./components/Experience.vue";
 import Footer from "./components/Footer.vue";
 import Contact from "./components/Contact.vue";
 import { RouterLink, RouterView } from "vue-router";
+import ImageMe from "./components/collection/ImageMe.vue";
 // Initialize AOS when the component is mounted
 onMounted(() => {
   AOS.init({
@@ -26,13 +27,14 @@ onMounted(() => {
 <template>
   <!-- bg-[#17202A] -->
   <div class="lugrasimo-regular bg-pink-100 text-red-950 flex-col place-content-around">
-    <Hero />
+    <!-- <Hero />
     <About />
     <Skills />
     <Experience />
     <Contact />
     <Navbar />
-    <Footer />
+    <Footer /> -->
+    <ImageMe/>
   </div>
 </template>
 
