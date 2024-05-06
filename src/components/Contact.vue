@@ -41,9 +41,9 @@ const message = ref('')
           <input type="submit" value="Send" class="bg-green-500  px-4 py-2 rounded-lg mt-4 cursor-pointer hover:bg-green-600" />
         </form>
       </div>
-      <div class=" sm:ml-5 block justify-center text-center items-center"   data-aos="fade-right">
-        <div class="w-full items-center">
-          <div>Helo I'm Panharith
+      <div class=" sm:ml-5 block justify-center text-center items-center md:w-[40%]"   data-aos="fade-right">
+        <div class=" items-center">
+          <div>I feel free for your contact me to work and you can contact for collaboration with happy coding join any competion
 
         </div>
            <div class="flex place-content-around"> <img class="w-72 mt-2 self-center " src="/src/assets/image1.png" alt=""></div>

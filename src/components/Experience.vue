@@ -22,7 +22,7 @@ function closeDialog() {
 </script>
 
 <template>
-  <section class="flex place-content-around">
+  <section class="flex place-content-around z-10">
     <div class="flex flex-col items-center place-content-around mb-28 w-[80%]">
       <div class="font-medium text-3xl" data-aos="fade-down">Experience</div>
 
@@ -65,7 +65,7 @@ function closeDialog() {
 
       <!-- Dialog component -->
       <transition name="slide-fade">
-        <div v-if="dialogOpen" class="dialog -mt-[100%] sm:-mt-[46%] z-10 flex flex-col place-content-around h-96  w-[80%]">
+        <div v-if="dialogOpen" class="dialog -mt-[80%] sm:-mt-[%] z-10 flex flex-col place-content-around h-96  w-[80%]">
           <div class="flex place-content-around">
             <h2>{{ selectedSlide.name }}</h2>
           </div>
@@ -101,6 +101,7 @@ function closeDialog() {
 }
 .dialog {
   background-color: white;
+  height: 120%;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

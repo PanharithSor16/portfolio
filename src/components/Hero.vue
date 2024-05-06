@@ -10,18 +10,15 @@ const Day = ref(false)
       <div v-if="Day">he</div>
       <div class="mt-0 items-center ">
         <div class="ml-10 md:ml-0 flex-row place-content-center items-center content-center" data-aos-duration="1200">
-
-        
           <h1
             class=" font-semibold text-2xl"
             data-aos="fade-down"
           >
-            Hello, I'm <span class=" text-3xl  hover:text-green-900 "  data-aos="fade-down"><CoFlagKh /><vue-typewriter-effect :strings="['Panharith Sor', 'Software Engineer']" /> </span> <br />
+            Hello, I'm <span class=" text-3xl  hover:text-green-900 hover:bg-slate-200 "  data-aos="fade-down"><CoFlagKh /><vue-typewriter-effect :strings="['Panharith Sor', 'Software Engineer']" /> </span> <br />
           </h1>
 
           <p class="mt-5" data-aos="fade-up">
-            I'm Software Engineering, I'm working at Marunix Cambodia in Phnom
-            Penh
+            I'm Software Engineering, I'm working independently
           </p>
           <p class=" hover:text-yellow-900" data-aos="fade-up">
             I'm From Kirirom Institute of Technology
@@ -43,7 +40,7 @@ const Day = ref(false)
       <div class=" mt-20 text-red-100 flex items-center place-content-around mr-2">
         <div class=""> 
           <div class=" max-w-44 mb-3 shadow-sm" data-aos="fade-down">
-            <img src="/src/assets/image1.png" alt="">
+            <img class="" src="/src/assets/image1.png" alt="">
         </div>
         <div class=" max-w-44" data-aos="fade-up">
           <img src="/src/assets/image2.png"  data-aos="fade-up" alt="">
