@@ -7,7 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { imageOfMe } from "./imageMe";
-import Footer from '../Footer.vue';
+import Footer from "../Footer.vue";
 
 // import required modules
 import {
@@ -26,7 +26,7 @@ const modules = [Navigation, Pagination, Autoplay, EffectCoverflow];
       <h1>My photo collection</h1>
     </div>
     <div class="flex place-content-around">
-      <div class="w-[80%]" >
+      <div class="w-[80%]">
         <swiper
           :spaceBetween="30"
           :centeredSlides="true"
@@ -50,7 +50,6 @@ const modules = [Navigation, Pagination, Autoplay, EffectCoverflow];
             <div>find the new procees</div>
           </swiper-slide>
           <swiper-slide>Slide 2</swiper-slide>
-          
         </swiper>
       </div>
     </div>
@@ -83,10 +82,10 @@ const modules = [Navigation, Pagination, Autoplay, EffectCoverflow];
       </div>
     </div>
   </section>
-  <div class=" z-10">
-    <Navbar/>
+  <div class="z-10 mt-4 sticky">
+    <Navbar />
   </div>
- <div class="z-0">
-  <Footer class="z-50" />
- </div>
+  <div class="z-0 mt-2">
+    <Footer class="z-50" />
+  </div>
 </template>
