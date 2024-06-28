@@ -7,7 +7,8 @@ export const Slide = [
         responsible: "Backend",
         time: "4 month",
         period: "",
-        img: '/src/assets/image1.png'
+        img: '/src/assets/image1.png',
+        demo: 'https://drive.google.com/file/d/1O7RUpwK5WCPO3jQ-hr-hJUNQWnunGmdL/view?resourcekey',
     },
     {
         id: 2,
@@ -43,7 +44,7 @@ export const Slide = [
         id:5,
         name: "Machine Project",
         description: "It's application that help the staff easy to useing Machine and tracking machine running",
-        technology: "Spring boot, Vue js, Tailwind css, SQlSERVEr",
+        technology: "Spring boot, Vue js, Tailwind css, SQlSERVER",
         responsible: "FullStack",
         time: "4 month",
         period: "",

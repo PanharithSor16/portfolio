@@ -18,10 +18,10 @@ import {
       <div class="flex flex-col place-content-around mt-0 md:m-20">
         <div>Project</div>
       </div>
-      <div class="mt-5">
+      <div class=" flex flex-col place-content-around mt-0 md:m-20">
         <div>About</div>
       </div>
-      <div class="mt-5 flex flex-col place-content-around md:m-20">
+      <div class=" flex flex-col place-content-around md:m-20">
         <div class="flex items-center text-pink-100">
           <DeFacebookPlain class="mr-2" /> FaceBook
         </div>

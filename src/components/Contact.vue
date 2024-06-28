@@ -46,7 +46,7 @@ const message = ref('')
           <div>I feel free for your contact me to work and you can contact for collaboration with happy coding join any competion
 
         </div>
-           <div class="flex place-content-around"> <img class="w-72 mt-2 self-center " src="/src/assets/image1.png" alt=""></div>
+           <div class="flex place-content-around"> <img class="w-72 mt-2 self-center rounded-sm" src="/src/assets/my_photo_B.jpg" alt=""></div>
         </div>
       </div>
     </div>

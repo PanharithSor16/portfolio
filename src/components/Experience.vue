@@ -22,7 +22,7 @@ function closeDialog() {
 </script>
 
 <template>
-  <section class="flex place-content-around z-10">
+  <section id="experience" class="flex place-content-around z-10">
     <div class="flex flex-col items-center place-content-around mb-28 w-[80%]">
       <div class="font-medium text-3xl" data-aos="fade-down">Experience</div>
 
@@ -64,8 +64,8 @@ function closeDialog() {
       </swiper>
 
       <!-- Dialog component -->
-      <transition name="slide-fade">
-        <div v-if="dialogOpen" class="dialog -mt-[80%] sm:-mt-[%] z-10 flex flex-col place-content-around h-96  w-[80%]">
+      <transition name="slide-fade" class=" flex text-center">
+        <div v-if="dialogOpen" class="dialog -mt-60  z-10 flex flex-col place-content-around h-96  w-full">
           <div class="flex place-content-around">
             <h2>{{ selectedSlide.name }}</h2>
           </div>
@@ -73,7 +73,10 @@ function closeDialog() {
          <div class=" max-w-[20%]">
           <img :src="selectedSlide.img" alt="">
          </div>
-          <p>{{ selectedSlide.description }}</p>
+          <p>{{ selectedSlide.description }}  <br>
+            <span class=" font-bold text-xl">Technology used: </span>    {{ selectedSlide.technology}}
+          </p> 
+     
         </div>
           <div class=" flex place-content-between">
             <div></div>
