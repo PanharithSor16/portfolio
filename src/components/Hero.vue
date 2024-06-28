@@ -7,7 +7,7 @@ const Day = ref(false)
 <template>
   <section id="Hero" class="flex place-content-around">
     <div class=" items-center align-middle md:flex place-content-around md:w-[80%]">
-      <div v-if="Day">he</div>
+    
       <div class="mt-0 items-center ">
         <div class="ml-10 md:ml-0 flex-row place-content-center items-center content-center" data-aos-duration="1200">
           <h1
@@ -40,22 +40,22 @@ const Day = ref(false)
       <div class=" mt-20 text-red-100 flex items-center place-content-around mr-2">
         <div class=""> 
           <div class=" max-w-44 mb-3 shadow-sm" data-aos="fade-down">
-            <img class="" src="/src/assets/image1.png" alt="">
+            <img class="" src="/src/assets/my_photo_C.jpg" alt="">
         </div>
         <div class=" max-w-44" data-aos="fade-up">
-          <img src="/src/assets/image2.png"  data-aos="fade-up" alt="">
+          <img src="/src/assets/my_photo_B.jpg"  data-aos="fade-up" alt="">
         </div>
       </div>
         <div class="ml-4">
           <div class=" max-w-44" data-aos="flip-down">
-            <img src="/src/assets/image3.png"  data-aos="flip-down" alt="">
+            <img src="/src/assets/my_photo_A.jpg"  data-aos="flip-down" alt="">
           </div>
             <div class=" max-w-60 mt-3" data-aos="zoom-in">
-              <img src="/src/assets/image4.png" data-aos="zoom-in" data-aos-easing="ease-in" alt="">
+              <img src="/src/assets/with_friend_B.jpg" data-aos="zoom-in" data-aos-easing="ease-in" alt="">
             </div>
            
             <div class=" max-w-60 mt-3 pb-2" data-aos="fade-left">
-              <img src="/src/assets/image5.png" data-aos="fade-left" data-aos-once="false" alt="">
+              <img src="/src/assets/with_friend_A.jpg" data-aos="fade-left" data-aos-once="false" alt="">
             </div>
         </div>
       </div>

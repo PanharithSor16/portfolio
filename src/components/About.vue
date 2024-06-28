@@ -6,7 +6,7 @@
     >
       <div class="mt-20 md:ml-0 md:mr-3 flex text-center place-content-around">
         <div class="w-80 hidden sm:block" data-aos="zoom-in">
-          <img src="/src/assets/image2.png" alt="" />
+          <img src="/src/assets/my_photo_about.jpg" alt="" />
         </div>
         <div class="sm:ml-8" data-aos="fade-left">
           <h1 class="text-2xl" data-aos="fade-left">ABOUT ME</h1>
