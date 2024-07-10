@@ -42,7 +42,7 @@ function closeDialog() {
           <div class="mt-10">
             <div class="flex place-content-around">
               <img
-                class="object-fill bg-cover hover:object-scale-down h-full max-h-96 max-w-[30%] pb-5"
+                class=" bg-cover object-scale-down hover:object-scale-down h-full max-h-96 max-w-[30%] pb-5"
                 :src="slide.img"
                 :alt="slide.name"
               />
@@ -70,19 +70,16 @@ function closeDialog() {
             <h2>{{ selectedSlide.name }}</h2>
           </div>
         <div class="flex text-center items-center place-content-around ">
-         <div class=" max-w-[20%]">
-          <img :src="selectedSlide.img" alt="">
-         </div>
-          <p>{{ selectedSlide.description }}  <br>
+        
+          <p class=" w-[75%]">{{ selectedSlide.description }}  <br>
             <span class=" font-bold text-xl">Technology used: </span>    {{ selectedSlide.technology}}
           </p> 
      
         </div>
           <div class=" flex place-content-between">
-            <div></div>
+            <a :href="selectedSlide.demo"><button>Demo</button></a>
             <button @click="closeDialog" class=" bg-red-200 hover:bg-green-200 p-2 rounded-sm" >Close</button>
-          </div>
-         
+          </div>  
         </div>
       </transition>
     </div>

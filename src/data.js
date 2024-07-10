@@ -3,11 +3,11 @@ export const Slide = [
         id: 1,
         name: 'PromoKH',
         description: 'PromoKH is plateform that support the bussiness and who find promotion',
-        echnology: "Next js, MongoDB, Spring boot, Tailwind,AWS S3 ",
+        technology: "Next js, MongoDB, Spring boot, Tailwind,AWS S3 ",
         responsible: "Backend",
         time: "4 month",
         period: "",
-        img: '/src/assets/image1.png',
+        img: '/src/assets/promokh.png',
         demo: 'https://drive.google.com/file/d/1O7RUpwK5WCPO3jQ-hr-hJUNQWnunGmdL/view?resourcekey',
     },
     {
@@ -18,7 +18,9 @@ export const Slide = [
         responsible: "Frontend",
         time: "4 month",
         period: "",
-        img: '/src/assets/image2.png'
+        img: '/src/assets/jartjaeng.jpg',
+        demo: 'https://play.google.com/store/apps/details?id=com.kit.jart_jaeng&hl=en-TH',
+
     },
     {
         id: 3,
@@ -28,17 +30,21 @@ export const Slide = [
         responsible: "Frontend",
         time: "4 month",
         period: "",
-        img: '/src/assets/image5.png'
+        img: '/src/assets/image5.png',
+        demo: 'https://drive.google.com/file/d/1OAwRi6LJ1ZUJaLB-NYruDxN_4TcHU5wX/view?usp=sharing',
+
     },
     {
-        id: 4,
+        id: 4,  
         name: "PomodoroDesk",
         description: "It program that user set the timer for yourself for working or learning",
         technology: "Electronjs, Tailwind css ",
         responsible: "Frontend",
         time: "4 month",
         period: "",
-        img: '/src/assets/image4.png'
+        img: '/src/assets/image4.png',
+        demo: 'https://drive.google.com/file/d/1O7RUpwK5WCPO3jQ-hr-hJUNQWnunGmdL/view?resourcekey',
+
     },
     {
         id:5,
@@ -48,6 +54,8 @@ export const Slide = [
         responsible: "FullStack",
         time: "4 month",
         period: "",
-        img: '/src/assets/image4.png'
+        img: '/src/assets/image4.png',
+        demo: 'https://drive.google.com/file/d/1O7RUpwK5WCPO3jQ-hr-hJUNQWnunGmdL/view?resourcekey',
+
     }
 ]
